@@ -2,6 +2,8 @@
 
 
 
+
+
 import React, { lazy, Suspense, useState, useMemo, useEffect, useCallback } from 'react';
 import Layout from './components/Layout';
 import Dashboard from './components/Dashboard';
@@ -35,7 +37,7 @@ const Parents = lazy(() => import('./components/Parents'));
 const Settings = lazy(() => import('./components/Settings'));
 const Recruitment = lazy(() => import('./components/Recruitment'));
 const Assets = lazy(() => import('./components/Assets'));
-const Analytics = lazy(() => import('./components/Analytics'));
+const Analytics = lazy(() => import('./components/Analytics.tsx'));
 
 const LoadingFallback: React.FC = () => (
     <div className="flex items-center justify-center h-full">
