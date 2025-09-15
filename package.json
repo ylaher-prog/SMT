@@ -1,0 +1,31 @@
+{
+  "name": "copy-of-smt",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "6",
+    "recharts": "^3.1.2",
+    "@google/genai": "latest",
+    "@supabase/supabase-js": "2",
+    "@tanstack/react-query": "5",
+    "zustand": "4",
+    "zod": "3",
+    "react-hook-form": "^7.62.0",
+    "@playwright/test": "^1.55.0",
+    "@hookform/resolvers": "^5.2.1",
+    "@tanstack/query-core": "^5.87.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
